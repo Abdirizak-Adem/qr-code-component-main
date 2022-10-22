@@ -6,33 +6,34 @@
   box-sizing: border-box;
 }
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .wrapper {
-  position: relative;
   width: 300px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #fff;
   padding: 1rem;
   text-align: center;
   border-radius: 12px;
 }
 .text {
-  padding: 0 15px;
+  padding: 15px;
 }
-.text h2 {
-  font-size: 21px;
+.text h1 {
+  font-size: 21.7px;
   color: hsl(218, 44%, 22%);
-  font: 700;
+  font-weight: 700;
 }
 .text p {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
-  font: 700;
   margin-bottom: 1rem;
 }
 
